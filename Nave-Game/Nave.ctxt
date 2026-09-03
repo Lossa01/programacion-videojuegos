@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Nave
+comment1.params=pool
+comment1.target=Nave(PoolDeBalas)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ mover()
+comment4.params=
+comment4.target=void\ cambiarArma()
+comment5.params=
+comment5.target=void\ disparar()
+numComments=6

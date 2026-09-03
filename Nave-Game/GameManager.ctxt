@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=GameManager
+comment1.params=
+comment1.target=GameManager()
+comment2.params=
+comment2.target=GameManager\ getInstancia()
+comment3.params=o
+comment3.target=void\ suscribir(Observador)
+comment4.params=p
+comment4.target=void\ sumarPuntos(int)
+comment5.params=
+comment5.target=void\ reiniciar()
+comment6.params=
+comment6.target=int\ getPuntos()
+comment7.params=
+comment7.target=void\ notificar()
+numComments=8
