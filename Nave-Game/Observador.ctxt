@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Observador
+comment1.params=puntos
+comment1.target=void\ actualizar(int)
+numComments=2

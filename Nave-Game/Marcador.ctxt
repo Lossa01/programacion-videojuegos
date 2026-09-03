@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Marcador
+comment1.params=
+comment1.target=Marcador()
+comment2.params=puntos
+comment2.target=void\ actualizar(int)
+numComments=3
