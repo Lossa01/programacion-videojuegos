@@ -6,7 +6,7 @@ Repo del ramo de Programación de Videojuegos — un juego de cada tipo, cada un
 
 - `Megaman/` - plataforma
 - `Nave-Game/` - shooter (nave modificada)
-- `Greenfoot-RogueLike/` - rogue-like en Greenfoot, hecho con Franco (@francoav408)
+- `Greenfoot-RogueLike/` - rogue-like en Greenfoot.
 
 ## Autores
 
