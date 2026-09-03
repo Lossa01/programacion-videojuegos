@@ -1,0 +1,56 @@
+====================================================
+  PROYECTO GREENFOOT - MEGA MAN (Juego de Plataformas)
+====================================================
+
+Este proyecto implementa la guía "Sprites, estados y salto parabólico":
+personaje jugable que camina (animación por sprites) y salta con
+trayectoria parabólica, con los estados QUIETO, CAMINANDO, SALTANDO y
+CAYENDO (Desafío 2 incluido).
+
+--------------------------------------------------
+CÓMO ABRIRLO
+--------------------------------------------------
+1. Descomprime este ZIP en una carpeta (por ejemplo en tu Escritorio).
+   Debe quedar una carpeta llamada "MEGA-MAN" que contiene:
+      - Mundo.java
+      - Jugador.java
+      - project.greenfoot
+      - carpeta images/  (con los sprites)
+
+2. Abre Greenfoot.
+
+3. Menú: Scenario -> Open...  y selecciona la carpeta "MEGA-MAN".
+   (También puedes abrir el archivo project.greenfoot).
+
+4. Greenfoot compilará automáticamente. Si no, presiona el botón "Compile".
+
+5. Si el escenario no aparece: haz clic derecho sobre la caja "Mundo"
+   en el panel derecho y elige "new Mundo()".
+
+6. Haz clic sobre el escenario y presiona "Run".
+
+--------------------------------------------------
+CONTROLES
+--------------------------------------------------
+   Flecha IZQUIERDA / DERECHA  ->  caminar
+   BARRA ESPACIADORA           ->  saltar
+
+--------------------------------------------------
+EXPERIMENTOS (sección 14 de la guía)
+--------------------------------------------------
+En Jugador.java puedes modificar:
+   - velocidadInicial (12.0)  -> altura del salto
+   - gravedad (1.0)           -> qué tan rápido cae
+   - VELOCIDAD_X (4)          -> velocidad al caminar
+   - VELOCIDAD_ANIMACION (6)  -> velocidad de la animación (3=rápida, 10=lenta)
+
+--------------------------------------------------
+SPRITES
+--------------------------------------------------
+   idle.png              -> quieto (de frente)
+   walk1..walk4.png      -> ciclo de caminata (de perfil)
+   jump.png              -> subiendo
+   fall.png              -> cayendo
+
+Los sprites de caminata miran a la izquierda; el código los espeja
+automáticamente al caminar hacia la derecha.
